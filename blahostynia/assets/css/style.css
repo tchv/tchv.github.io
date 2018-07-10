@@ -1,0 +1,139 @@
+body {
+  height: 2000px;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* Topnav */
+
+.topnav {
+  color: #666666;
+  background-color: ghostwhite;
+  font-size: 14px;
+}
+
+.topnav-icon {
+  margin: 10px;
+}
+
+.topnav-text {
+  padding-right: 20px;
+  margin: 0;
+}
+
+.topnav-social {
+  padding: 0;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  color: #666666;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-youtube:hover {
+  color: #ffffff;
+  background-color: #cd201f;
+}
+
+.icon-facebook:hover {
+  color: #ffffff;
+  background-color: #3b5998;
+}
+
+.icon-instagram:hover {
+  color: #ffffff;
+  background-color: #e4405f;
+}
+
+/* Navbar */
+
+.active-menu-link {
+  border-bottom: 1px solid #740c0c;
+}
+
+.nav-item {
+  margin: 10px;
+}
+
+.nav-item:hover {
+  border-bottom: 1px solid #740c0c;
+}
+
+.btn-donate {
+  border-radius: 0;
+  margin-left: 10px;
+}
+
+/* Slider */
+
+.slider {
+  padding: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* Main content */
+
+.home-content {
+  height: 700px;
+}
+
+.home-parallax {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home-parallax-content {
+  color: #ffffff;
+  width: 100%;
+  height: 500px;
+}
+
+.home-team {
+  height: 700px;
+}
+
+.home-team-title {
+  color: #740c0c;
+}
+
+.home-team-img {
+  margin: 20px;
+}
+
+.home-maps {
+  width: 100%;
+  height: 500px;
+}
+
+/* Footer */
+
+footer {
+  height: 100px;
+  background-color: #666666;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.footer-social-icon {
+  width: 40px;
+  height: 40px;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
