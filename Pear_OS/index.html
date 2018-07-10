@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pear OS</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/pear.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="js/main.js"></script>
+  </head>
+  <body class="page">
+    <!-- ==========Header========== -->
+    <header class="page__header">
+      <a class="header__logo" href="https://tchv.github.io/Pear_OS/">
+        <div class="header__logo-icon"></div>
+        <strong class="header__title header__text">Pear OS</strong>
+      </a>
+      <nav class="header__menu">
+        <a class="header__link header__text" href="javascript:void(0)" onclick="openAbout()">About</a>
+        <a class="header__link header__text" href="javascript:void(0)" onclick="openSkills()">Skills</a>
+        <a class="header__link header__text" href="javascript:void(0)" onclick="openPortfolio()">Portfolio</a>
+        <a class="header__link header__text" href="javascript:void(0)" onclick="openContact()">Contact</a>
+      </nav>
+      <aside class="header__aside">
+
+        <div class="header__icon">
+          <span class="fa fa-cloud" aria-hidden="true"></span>
+        </div>
+
+        <a class="header__link header__text" href="javascript:void(0)" onclick="openLanguage()">Eng</a>
+
+        <div class="header__icon">
+          <span class="fa fa-wifi" aria-hidden="true"></span>
+        </div>
+
+        <div class="header__icon">
+          <span class="fa fa-volume-up" aria-hidden="true"></span>
+        </div>
+
+        <div class="header__icon">
+          <span class="fa fa-battery-full" aria-hidden="true"></span>
+        </div>
+
+        <a class="header__link header__text" id="time" href="javascript:void(0)" onclick="openCalendar(); Calendar()"></a>
+
+        <div class="header__icon">
+          <span class="fa fa-search" aria-hidden="true"></span>
+        </div>
+
+      </aside>
+    </header>
+    <!-- ==========Main========== -->
+    <main class="page__main">
+      <section id="backgraund" class="main__content">
+        <h2 class="content__title">Taras Chornyi</h2>
+        <p class="content__text">Web UI Developer</p>
+      </section>
+    <!-- ==========About========== -->
+      <section id="about" class="window window__hidden">
+        <div class="window__box">
+          <p class="window__title">About Me</p>
+          <a class="window__button" href="javascript:void(0)" onclick="closeWindow(); closeWindowAbout()">
+            <p class="fa fa-times-circle" aria-hidden="true" title="close"></p>
+          </a>
+        </div>
+
+        <section class="window__box">
+          <div class="window__card">
+            <section class="card__icon icon__user"></section>
+            <h1 class="card__title">About Me</h1>
+
+            <p class="card__text">Hello, my name is Taras Chornyi. I am from Lviv, Ukraine.</p>
+
+            <p class="card__text">I am currently looking for a job or internship as a Web UI Developer and Web Designer. I am fully available to work relocation and remotely.</p>
+
+            <p class="card__text">I am the one who always is keen on knowledge and wants to understand more and more. My appetite for knowledge is never sated and I always do my best to keep learning.</p>
+
+            <p class="card__text">I am looking for a job where I can develop in front-end and web design.</p>
+
+          </div>
+          <div class="window__card card__center">
+            <section class="card__icon icon__resume"></section>
+            <h1 class="card__title">Who I am</h1>
+
+            <p class="card__text">I am a Junior Web UI Developer and Web Designer. I have three month of professional experience (and over six month as hobby) in developing websites based on web technologies like HTML 5, CSS 3, JavaScript.</p>
+
+            <p class="card__text">My experience with System and Network Administrating is over three years and I also have experience in Ethernet and WiFi Network setup and support.</p>
+
+          </div>
+          <div class="window__card">
+            <section class="card__icon icon__edu"></section>
+            <h1 class="card__title">Education</h1>
+
+            <p class="card__text">Ivan Franko National University of Lviv - Biochemistry</p>
+
+            <p class="card__text">Lviv Culture and Arts College - Manager</p>
+
+            <p class="card__text">Novyi Rozdil Polytechnic College - System and Network Administration</p>
+
+            <p class="card__text">Lviv IT School - Web UI Development</p>
+
+          </div>
+        </section>
+      </section>
+    <!-- ==========Skills========== -->
+      <section id="skills" class="window window__hidden">
+        <div class="window__box">
+          <p class="window__title">Skills</p>
+          <a class="window__button" href="javascript:void(0)" onclick="closeWindow(); closeWindowSkills()">
+            <p class="fa fa-times-circle" aria-hidden="true" title="close"></p>
+          </a>
+        </div>
+
+        <section class="window__box">
+          <div class="window__card">
+            <section class="card__icon icon__html"></section>
+            <h1 class="card__title">HTML 5</h1>
+
+            <section class="card__icon icon__css"></section>
+            <h1 class="card__title">CSS 3</h1>
+
+            <section class="card__icon icon__js"></section>
+            <h1 class="card__title">JavaScript</h1>
+          </div>
+          <div class="window__card card__center">
+            <section class="card__icon icon__responsive"></section>
+            <h1 class="card__title">Responsive</h1>
+
+            <section class="card__icon icon__layout"></section>
+            <h1 class="card__title">Layout</h1>
+
+            <section class="card__icon icon__photoshop"></section>
+            <h1 class="card__title">Photoshop</h1>
+          </div>
+          <div class="window__card">
+            <section class="card__icon icon__windows"></section>
+            <h1 class="card__title">Windows</h1>
+
+            <section class="card__icon icon__linux"></section>
+            <h1 class="card__title">Linux</h1>
+
+            <section class="card__icon icon__git"></section>
+            <h1 class="card__title">Git</h1>
+          </div>
+        </section>
+      </section>
+    <!-- ==========Portfolio========== -->
+      <section id="portfolio" class="window window__hidden">
+        <div class="window__box">
+          <p class="window__title">Portfolio</p>
+          <a class="window__button" href="javascript:void(0)" onclick="closeWindow(); closeWindowPortfolio()">
+            <p class="fa fa-times-circle" aria-hidden="true" title="close"></p>
+          </a>
+        </div>
+
+        <section class="window__box">
+          <div class="window__card">
+            <section class="card__image website__0"></section>
+            <a href="http://rodynainfo.blogspot.com/" class="card__link" target="_blank"><p>Rodyna Info</p></a>
+            <section class="card__image website__3"></section>
+            <a href="https://tchv.github.io/Web_Lab/" class="card__link" target="_blank"><p>Web Lab</p></a>
+          </div>
+          <div class="window__card card__center">
+            <section class="card__image website__1"></section>
+            <a href="https://tchv.github.io/Makeup/" class="card__link" target="_blank"><p>Makeup</p></a>
+            <section class="card__image portfolio"></section>
+            <a href="https://tchv.github.io/Portfolio/" class="card__link" target="_blank"><p>Portfolio</p></a>
+          </div>
+          <div class="window__card">
+            <section class="card__image website__2"></section>
+            <a href="https://tchv.github.io/My_Web/" class="card__link" target="_blank"><p>My Web</p></a>
+            <section class="card__image simple__calculator"></section>
+            <a href="https://tchv.github.io/Simple_Calculator/" class="card__link" target="_blank"><p>Simple Calculator</p></a>
+          </div>
+        </section>
+      </section>
+    <!-- ==========Contact========== -->
+      <section id="contact" class="window window__hidden">
+        <div class="window__box">
+          <p class="window__title">Contact</p>
+          <a class="window__button" href="javascript:void(0)" onclick="closeWindow(); closeWindowContact()">
+            <p class="fa fa-times-circle" aria-hidden="true" title="close"></p>
+          </a>
+        </div>
+
+        <section class="window__box">
+          <div class="window__card">
+            <section class="card__image image__skype"></section>
+            <h1 class="card__title">Skype</h1>
+            <p class="card__text text__center  text__color"><i>Skype ID:</i></p>
+            <p class="card__text text__center">live:bded984872425b84</p>
+            <p class="card__text text__center  text__color"><i>Name:</i></p>
+            <p class="card__text text__center">Taras Chornyi</p>
+          </div>
+          <div class="window__card card__center">
+            <section class="card__image image__phone"></section>
+            <h1 class="card__title">Phone</h1>
+            <p class="card__text text__center text__color"><i>Ukraine:</i></p>
+            <p class="card__text text__center">+380 98 558 60 24</p>
+            <p class="card__text text__center">+380 93 727 34 50</p>
+            <p class="card__text text__center  text__color"><i>Poland:</i></p>
+            <p class="card__text text__center">+48 570 542 272</p>
+          </div>
+          <div class="window__card">
+            <section class="card__image image__mail"></section>
+            <h1 class="card__title">Email</h1>
+            <p class="card__text text__center  text__color"><i>My email:</i></p>
+            <p class="card__text text__center">taras.chornyi.v@gmail.com</p>
+            <p class="card__text text__center  text__color"><i>Work email:</i></p>
+            <p class="card__text text__center">rodyna.info@gmail.com</p>
+          </div>
+        </section>
+      </section>
+    <!-- ==========Language========== -->
+      <section id="language" class="window window__hidden">
+        <div class="window__box">
+          <p class="window__title">Language</p>
+          <a class="window__button" href="javascript:void(0)" onclick="closeWindow(); closeWindowCntact()">
+            <p class="fa fa-times-circle" aria-hidden="true" title="close"></p>
+          </a>
+        </div>
+
+        <section class="window__box">
+          <div class="window__card card__small">
+            <section class="card__icon icon__ua"></section>
+            <h1 class="card__title">Ukrainian</h1>
+            <p class="card__text text__center  text__color">Native</p>
+
+            <section class="card__icon icon__ru"></section>
+            <h1 class="card__title">Russian</h1>
+            <p class="card__text text__center  text__color">Fluent</p>
+          </div>
+          <div class="window__card card__small card__right">
+            <section class="card__icon icon__pl"></section>
+            <h1 class="card__title">Polish</h1>
+            <p class="card__text text__center  text__color">Upper-Intermediate</p>
+
+            <section class="card__icon icon__en"></section>
+            <h1 class="card__title">English</h1>
+            <p class="card__text text__center  text__color">Intermediate</p>
+          </div>
+        </section>
+      </section>
+    <!-- ==========Facebook========== -->
+      <section id="facebook" class="window window__hidden">
+        <div class="window__box">
+          <p class="window__title">Facebook</p>
+          <a class="window__button" href="javascript:void(0)" onclick="closeWindow()">
+            <p class="fa fa-times-circle" aria-hidden="true" title="close"></p>
+          </a>
+        </div>
+
+        <section class="window__box">
+          <div class="window__card card__big">
+            <iframe class="window__social" src="social/facebook.html" style="width: 100%; height: 100%"></iframe>
+          </div>
+          <a class="card__button" href="https://www.facebook.com/taras.chornyi.v" target="_blank">
+            <p class="card__button__text">View my Facebook</p>
+          </a>
+        </section>
+      </section>
+    <!-- ==========Linkedin========== -->
+      <section id="linkedin" class="window window__hidden">
+        <div class="window__box">
+          <p class="window__title">Linkedin</p>
+          <a class="window__button" href="javascript:void(0)" onclick="closeWindow()">
+            <p class="fa fa-times-circle" aria-hidden="true" title="close"></p>
+          </a>
+        </div>
+
+        <section class="window__box">
+          <div class="window__card card__big">
+            <iframe class="window__social" src="social/linkedin.html" style="width: 100%; height: 100%"></iframe>
+          </div>
+          <a class="card__button" href="https://www.linkedin.com/in/taras-chornyi-10380761/" target="_blank">
+            <p class="card__button__text">View my Linkedin</p>
+          </a>
+        </section>
+      </section>
+    <!-- ==========GitHub========== -->
+      <section id="github" class="window window__hidden">
+        <div class="window__box">
+          <p class="window__title">Git Hub</p>
+          <a class="window__button" href="javascript:void(0)" onclick="closeWindow()">
+            <p class="fa fa-times-circle" aria-hidden="true" title="close"></p>
+          </a>
+        </div>
+
+        <section class="window__box">
+          <div class="window__card card__big">
+            <iframe class="window__social" src="social/git-hub.html" style="width: 100%; height: 100%"></iframe>
+          </div>
+          <a class="card__button" href="https://github.com/tchv" target="_blank">
+            <p class="card__button__text">View my Git Hub</p>
+          </a>
+        </section>
+      </section>
+    <!-- ==========Photos========== -->
+      <section id="photos" class="window window__hidden">
+        <div class="window__box">
+          <p class="window__title">Photos</p>
+          <a class="window__button" href="javascript:void(0)" onclick="closeWindow()">
+            <p class="fa fa-times-circle" aria-hidden="true" title="close"></p>
+          </a>
+        </div>
+
+        <section class="window__box">
+          <div class="window__card photo_1"></div>
+          <div class="window__card card__center photo_2"></div>
+          <div class="window__card photo_3"></div>
+        </section>
+      </section>
+    <!-- ==========Calculator========== -->
+      <section id="calculator" class="window window__hidden">
+        <div class="window__box">
+          <p class="window__title">Simple Calculator</p>
+          <a class="window__button" href="javascript:void(0)" onclick="closeWindow()">
+            <p class="fa fa-times-circle" aria-hidden="true" title="close"></p>
+          </a>
+        </div>
+
+        <form class="calculator" name="calc">
+          <input id="focus" class="calculator__display" name="input" placeholder="0">
+
+          <div class="calculator__button" onclick="seven()">7</div>
+          <div class="calculator__button" onclick="eight()">8</div>
+          <div class="calculator__button" onclick="nine()">9</div>
+          <div class="calculator__button button__maths" onclick="divide()">/</div>
+
+          <div class="calculator__button" onclick="four()">4</div>
+          <div class="calculator__button" onclick="five()">5</div>
+          <div class="calculator__button" onclick="six()">6</div>
+          <div class="calculator__button button__maths" onclick="multiply()">*</div>
+
+          <div class="calculator__button" onclick="one()">1</div>
+          <div class="calculator__button" onclick="two()">2</div>
+          <div class="calculator__button" onclick="three()">3</div>
+          <div class="calculator__button button__maths" onclick="subtract()">-</div>
+
+          <div class="calculator__button" onclick="dot()">.</div>
+          <div class="calculator__button" onclick="zero()">0</div>
+          <div class="calculator__button button__clean" onclick="clean()">c</div>
+          <div class="calculator__button button__maths" onclick="add()">+</div>
+
+          <div class="calculator__button button__sum" onclick="sum()">=</div>
+
+        </form>
+      </section>
+    <!-- ==========Map========== -->
+      <section id="location" class="window window__hidden">
+        <div class="window__box">
+          <p class="window__title">My location</p>
+          <a class="window__button" href="javascript:void(0)" onclick="closeWindow()">
+            <p class="fa fa-times-circle" aria-hidden="true" title="close"></p>
+          </a>
+        </div>
+
+        <section class="window__box">
+          <div id="map" class="window__card card__big"></div>
+        </section>
+      </section>
+    <!-- ==========Calendar========== -->
+      <section id="calendar" class="window window__hidden">
+        <div class="window__box">
+          <p class="window__title">Calendar</p>
+          <a class="window__button" href="javascript:void(0)" onclick="closeWindow()">
+            <p class="fa fa-times-circle" aria-hidden="true" title="close"></p>
+          </a>
+        </div>
+
+        <section class="window__box">
+          <div class="window__card card__big">
+            <table id="calendar2" class="calendar">
+              <thead class="calendar__head">
+                <tr><td>‹<td colspan="5"><hr><td>›
+                <tr><td>Mon<td>Tue<td>Wed<td>Thu<td>Fri<td>Sat<td>Sun
+              <tbody class="calendar__body">
+            </table>
+          </div>
+        </section>
+      </section>
+    <!-- ==========Document========== -->
+      <section id="document" class="window window__hidden">
+        <div class="window__box">
+          <p class="window__title">My Document</p>
+          <a class="window__button" href="javascript:void(0)" onclick="closeWindow()">
+            <p class="fa fa-times-circle" aria-hidden="true" title="close"></p>
+          </a>
+        </div>
+
+        <section class="window__box">
+          <div class="window__card card__big">
+            <iframe class="window__social" src="https://docs.google.com/document/d/1fanvNuG2zc0ZZqdWnuHjs0IAM-zeMZIaJjqmOMyhQOw/edit?usp=sharing" style="width: 100%; height: 100%"></iframe>
+          </div>
+        </section>
+      </section>
+    </main>
+  <!-- ==========Footer========== -->
+    <footer class="page__footer">
+      <a class="footer__link" href="javascript:void(0)" onclick="openDocument()">
+        <p class="link__icon icon__document" title="My Document"></p>
+      </a>
+      <a class="footer__link" href="javascript:void(0)" onclick="openFacebook()">
+        <p class="link__icon icon__facebook" title="Facebook"></p>
+      </a>
+      <a class="footer__link" href="javascript:void(0)" onclick="openLinkedin()">
+        <p class="link__icon icon__linkedin" title="Linkedin"></p>
+      </a>
+      <a class="footer__link" href="javascript:void(0)" onclick="openGitHub()">
+        <p class="link__icon icon__github" title="Git Hub"></p>
+      </a>
+      <a class="footer__link" href="javascript:void(0)" onclick="openPhotos()">
+        <p class="link__icon icon__photos" title="Photos"></p>
+      </a>
+      <a class="footer__link" href="javascript:void(0)" onclick="openCalculator()">
+        <p class="link__icon icon__calc" title="Simple Calculator2"></p>
+      </a>
+      <a class="footer__link" href="javascript:void(0)" onclick="openLocation(); initMap()">
+        <p class="link__icon icon__location" title="Location"></p>
+      </a>
+      <a class="footer__link" href="javascript:void(0)" onclick="openCalendar(); Calendar()">
+        <p class="link__icon icon__calendar" title="Calendar"></p>
+      </a>
+
+      <a class="footer__link" href="javascript:void(0)" onclick="openLanguage()">
+        <p class="link__icon icon__language" title="Language"></p>
+      </a>
+
+      <a id="about__icon" class="footer__link icon__hiden" href="javascript:void(0)" onclick="openAbout()">
+        <p class="link__icon icon__about" title="About"></p>
+      </a>
+      <a id="skills__icon" class="footer__link icon__hiden" href="javascript:void(0)" onclick="openSkills()">
+        <p class="link__icon icon__skills" title="Skills"></p>
+      </a>
+      <a id="portfolio__icon" class="footer__link icon__hiden" href="javascript:void(0)" onclick="openPortfolio()">
+        <p class="link__icon icon__portfolio" title="Portfolio"></p>
+      </a>
+      <a id="contact__icon" class="footer__link icon__hiden" href="javascript:void(0)" onclick="openContact()">
+        <p class="link__icon icon__contact" title="Contact"></p>
+      </a>
+    </footer>
+  </body>
+  <!-- ==========Script========== -->
+  <script type="text/javascript">
+   clock();
+  </script>
+  <script type="text/javascript">
+   displayFocus();
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIvLsp3V0DEiAvmrKH-91rdrkBVMewSkU&callback=initMap"></script>
+</html>

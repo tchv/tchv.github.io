@@ -1,0 +1,629 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato';
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/bg3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*==========Header===========*/
+
+.page__header {
+  width: 100%;
+  height: 32px;
+  color: #fff;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo-icon {
+  width: 22px;
+  height: 22px;
+  margin: 0 5px 0 10px;
+  background: url(../img/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__title {
+  font-size: 16px;
+  color: #fff;
+  margin: 0 10px 0 5px;
+}
+
+.header__menu {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
+.header__link,
+.header__icon {
+  height: 100%;
+  font-size: 16px;
+  color: #fff;
+  padding: 0 10px 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.header__text {
+  padding-bottom: 2px;
+}
+
+.header__logo:hover,
+.header__link:hover {
+  color: #fff;
+  background: #1ea8cd;
+}
+
+.header__aside {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*==========Main==========*/
+
+.page__main {
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content__title {
+  color: #ffffff;
+  font-size: 72px;
+}
+
+.content__text {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+/*==========Window==========*/
+
+.window {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  padding: 0 3px 3px 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.window__hidden {
+  display: none;
+}
+
+.window__box {
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.window__social {
+  border-style: none;
+}
+
+.window__title,
+.window__button {
+  color: #555;
+  padding: 3px;
+}
+
+.window__title {
+  font-size: 16px;
+}
+
+.window__button {
+  font-size: 18px;
+}
+
+.window__button:hover {
+  color: red;
+}
+
+.window__card {
+  width: 300px;
+  height: 450px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.card__big {
+  width: 1100px;
+  height: 530px;
+}
+
+.card__small {
+  width: 300px;
+  height: 400px;
+}
+
+.card__center {
+  margin: 0 3px 0 3px;
+}
+
+.card__right {
+  margin: 0 0 0 3px;
+}
+
+.card__image {
+  width: 150px;
+  height: 150px;
+  margin: 20px 0 20px 25%;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card__icon {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card__title {
+  color: #333;
+  font-size: 18px;
+  text-align: center;
+  margin: 5px;
+}
+
+.card__text {
+  color: #333;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.card__list {
+  color: #333;
+  font-size: 16px;
+  margin: 0 0 0 35px;
+}
+
+.card__link {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+}
+
+.card__button {
+  color: #fff;
+  width: 150px;
+  height: 150px;
+  background: #1ea8cd;
+  border-radius: 50%;
+  position: absolute;
+  margin: 170px 0 0 920px;
+  display: flex;
+  align-items: center;
+}
+
+.card__button:hover {
+  background: green;
+}
+
+.card__button__text {
+  padding: 25px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.text__center {
+  text-align: center;
+  margin: 20px;
+}
+
+.text__color {
+  color: #1ea8cd;
+}
+
+/*==========Calculator==========*/
+
+.calculator__display,
+.calculator__button {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.calculator {
+  background-color: rgba(255,255,255,0.9);
+  display: grid;
+  grid-template-columns: (3 * 1fr);
+  grid-template-rows: (6 * 1fr);
+}
+
+.calculator__display {
+  color: #333;
+  font-family: 'Lato';
+  font-size: 24px;
+  text-align: right;
+  border: 1px solid #ccc;
+  padding: 0 20px 0 20px;
+  outline: none;
+  grid-column: 1 / 5;
+}
+
+.calculator__button {
+  color: #333;
+  font-family: 'Lato';
+  font-size: 24px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator__button:hover {
+  color: #fff;
+  background-color: #333;
+  border: 1px solid #333;
+}
+
+.button__maths:hover {
+  color: #fff;
+  background-color: #1ea8cd;
+  border: 1px solid #1ea8cd;
+}
+
+.button__clean:hover {
+  color: #fff;
+  background-color: red;
+  border: 1px solid red;
+}
+
+.button__sum {
+  grid-column: 1 / 5;
+}
+
+.button__sum:hover {
+  color: #fff;
+  background-color: green;
+  border: 1px solid green;
+}
+
+@media (min-width:750px) {
+  .calculator {
+    width: 300px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 749px) {
+  .calculator,
+  .calculator__display,
+  .calculator__button {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/*==========About==========*/
+
+.icon__user {
+  background-image: url(../img/icon-user.png);
+}
+
+.icon__resume {
+  background-image: url(../img/icon-resume.png);
+}
+
+.icon__edu {
+  background-image: url(../img/icon-edu.png);
+}
+
+/*==========Skills==========*/
+
+.icon__html {
+  background-image: url(../img/icon-html.png);
+}
+
+.icon__css {
+  background-image: url(../img/icon-css.png);
+}
+
+.icon__js {
+  background-image: url(../img/icon-js.png);
+}
+
+.icon__responsive {
+  background-image: url(../img/icon-responsive.png);
+}
+
+.icon__layout {
+  background-image: url(../img/icon-layout.png);
+}
+
+.icon__photoshop {
+  background-image: url(../img/icon-photoshop.png);
+}
+
+.icon__windows {
+  background-image: url(../img/icon-windows.png);
+}
+
+.icon__linux {
+  background-image: url(../img/icon-linux.png);
+}
+
+.icon__git {
+  background-image: url(../img/icon-git.png);
+}
+
+/*==========Portfolio==========*/
+
+.website__0 {
+  background-image: url(../img/rodyna.png);
+}
+
+.website__1 {
+  background-image: url(../img/makeup.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.website__2 {
+  background-image: url(../img/myweb.jpg);
+}
+
+.website__3 {
+  background-image: url(../img/weblab.jpg);
+}
+
+.portfolio {
+  background-image: url(../img/portfolio.png);
+}
+
+.simple__calculator {
+  background-image: url(../img/simple-calculator.png);
+}
+
+/*==========Website==========*/
+
+.page__1 {
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato';
+  font-size: 16px;
+  background-image: url(../website/calculator/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*==========Contact==========*/
+
+.image__skype {
+  background-image: url(../img/skype.png);
+}
+
+.image__phone {
+  background-image: url(../img/phone.png);
+}
+
+.image__mail {
+  background-image: url(../img/mail.png);
+}
+
+/*==========Language==========*/
+
+.icon__ua {
+  background-image: url(../img/icon-ua.png);
+}
+
+.icon__ru {
+  background-image: url(../img/icon-ru.png);
+}
+
+.icon__pl {
+  background-image: url(../img/icon-pl.png);
+}
+
+.icon__en {
+  background-image: url(../img/icon-en.png);
+}
+
+/*==========Photos==========*/
+
+.photo_1 {
+  background-image: url(../img/photo_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo_2 {
+  background-image: url(../img/photo_2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo_3 {
+  background-image: url(../img/photo_3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*==========Footer==========*/
+
+.page__footer {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__link {
+  padding: 5px 10px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.footer__link:hover {
+  background-color: #1ea8cd;
+}
+
+.link__icon {
+  width: 48px;
+  height: 48px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon__hiden {
+  display: none;
+}
+
+.icon__about {
+  background-image: url(../img/user.png);
+}
+
+.icon__skills {
+  background-image: url(../img/skills.png);
+}
+
+.icon__portfolio {
+  background-image: url(../img/portfolio1.png);
+}
+
+.icon__contact {
+  background-image: url(../img/contact.png);
+}
+
+.icon__facebook {
+  background-image: url(../img/facebook.png);
+}
+
+.icon__linkedin {
+  background-image: url(../img/linkedin.png);
+}
+
+.icon__github {
+  background-image: url(../img/github.png);
+}
+
+.icon__photos {
+  background-image: url(../img/photo.png);
+}
+
+.icon__calc {
+  background-image: url(../img/calculator.png);
+}
+
+.icon__location {
+  background-image: url(../img/location.png);
+}
+
+.icon__calendar {
+  background-image: url(../img/calendar.png);
+}
+
+.icon__document {
+  background-image: url(../img/document.png);
+}
+
+.icon__language {
+  background-image: url(../img/language.png);
+}
+
+/*==========Calendar==========*/
+
+.calendar {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-spacing: 0;
+}
+
+.calendar__head tr:last-child {
+  color: #333;
+  height: 50px;
+  background: #ccc;
+}
+
+.calendar__head tr:nth-child(1) td:nth-child(2) {
+  color: #333;
+  height: 50px;
+}
+
+.calendar__head tr:nth-child(1) td:nth-child(1):hover,
+.calendar__head tr:nth-child(1) td:nth-child(3):hover {
+  cursor: pointer;
+  height: 15%;
+  color: #fff;
+  background: #333;
+}
+
+.calendar__body td {
+  width: 10%;
+  color: #1ea8cd;
+}
+
+.calendar__body td:nth-child(n+6), .calendar .holiday {
+  color: red;
+}
+
+.calendar__body td.today {
+  color: #fff;
+  background: #1ea8cd;
+  border: 1px solid #1ea8cd;
+}
