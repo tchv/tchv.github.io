@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #999999;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page {
+  width: 210mm;
+  height: 297mm;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+/*===== Header =====*/
+
+.header {
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-circle {
+  width: 200px;
+  height: 200px;
+  border: 1.5px solid #414143;
+  border-radius: 50%;
+  border-style: dashed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-ava {
+  width: 180px;
+  height: 180px;
+  background-color: #414143;
+  background-image: url(../images/ava.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.header-name {
+  color: #ef5011;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  border-top: 5px solid #414143;
+  border-bottom: 1px dashed #414143;
+  margin-top: -40px;
+  padding: 10px 0 8px 0;
+  background-color: #ffffff;
+}
+
+.header-text {
+  color: #414143;
+  margin: 0 auto;
+  margin: -11px;
+  background-color: #ffffff;
+}
+
+/*===== Contact =====*/
+
+.contacts {
+  width: 100%;
+  height: 40px;
+  background-color: #414143;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-box,
+.content-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-icon,
+.content-icon {
+  width: 25px;
+  height: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: 15px;
+}
+
+.icon-email {
+  background-image: url(../images/Email.png);
+}
+
+.icon-phone {
+  background-image: url(../images/Phone.png);
+}
+
+.icon-website {
+  background-image: url(../images/Web.png);
+}
+
+/*===== Main =====*/
+
+.main {
+  width: 100%;
+  padding: 20px 20px 6px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.content-left {
+  padding: 0 20px 0 0;
+  border: 1px solid #414143;
+  border-style: none dashed none none;
+}
+
+.content-right {
+  padding: 0 0 0 20px;
+  border: 1px solid #414143;
+  border-style: none;
+}
+
+.main-circle {
+  width: 40px;
+  height: 40px;
+  border: 1.5px solid #414143;
+  border-radius: 50%;
+  border-style: dashed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+
+.main-title {
+  color: #ef5011;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  border-top: 3px solid #414143;
+  margin-top: -5px;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.main-box {
+  display: flex;
+}
+
+.main-list {
+  color: #414143;
+  font-size: 14px;
+  margin: 20px 0 20px 20px;
+}
+
+.main-list li {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main-list strong {
+  width: 150px;
+}
+
+.main-list small {
+  width: 50px;
+  border-top: 1px solid #ef5011;
+}
+
+.main-list i {
+  color: #777777;
+}
+
+.icon-skills {
+  background-image: url(../images/skills.png);
+}
+
+.icon-language {
+  background-image: url(../images/language.png);
+}
+
+.icon-dev {
+  background-image: url(../images/dev.png);
+}
+
+.icon-edu {
+  background-image: url(../images/edu.png);
+}
+
+.icon-exp {
+  background-image: url(../images/exp.png);
+}
+
+/*===== Hobby =====*/
+
+.hobby {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hobby-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+.icon-travel {
+  background-image: url(../images/travel.png);
+}
+
+.icon-music {
+  background-image: url(../images/music.png);
+}
+
+.icon-photo {
+  background-image: url(../images/photo.png);
+}
+
+.icon-chef {
+  background-image: url(../images/chef.png);
+}
+
+.icon-picture {
+  background-image: url(../images/picture.png);
+}
+
+/*===== Footer =====*/
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #414143;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: -16px;
+}
+
+.footer-contacts {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-text {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.icon-github {
+  background-image: url(../images/github.png);
+}
+
+.icon-facebook {
+  background-image: url(../images/facebook.png);
+}
+
+.icon-linkedin {
+  background-image: url(../images/linkedin.png);
+}
