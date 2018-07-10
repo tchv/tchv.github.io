@@ -1,0 +1,274 @@
+/*----------main----------*/
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  height: 450px;
+  background-color: var(--bgcard);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-image {
+  width: 150px;
+  height: 150px;
+}
+
+.avatar {
+  border-radius: 50%;
+  background: url(../img/ava.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card-text {
+  text-align: center;
+  line-height: 36px;
+}
+
+.card-text-title {
+  color: var(--font);
+  font-family: 'Montserrat-Bold';
+  font-size: 36px;
+}
+
+.card-text-small {
+  color: var(--font);
+  font-family: 'Montserrat-Light';
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.card-text-work,
+.card-text-main {
+  color: var(--font);
+  font-family: 'Montserrat-Medium';
+  font-size: 18px;
+}
+
+.card-button {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-button-link {
+  width: 250px;
+  height: 40px;
+  color: var(--link);
+  font-family: 'Montserrat-Medium';
+  font-size: 18px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-button-link:hover {
+  color: var(--linkhover);
+  background: var(--bghover);
+}
+
+/*----------pages----------*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/*----------contacts----------*/
+
+.skype {
+  background: url(../img/skype.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.phone {
+  background: url(../img/phone.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.mail {
+  background: url(../img/mail.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*-----------social----------*/
+
+.github {
+  background: url(../img/github.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.facebook {
+  background: url(../img/facebook.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.linkedin {
+  background: url(../img/linkedin.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*----------about----------*/
+
+.content {
+  width: 250px;
+}
+
+/*----------skills----------*/
+
+.card-text-container {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-image-skills {
+  width: 75px;
+  height: 75px;
+}
+
+.skills-text {
+  width: 150px;
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.html {
+  border-radius: 50%;
+  background: url(../img/html.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.css {
+  border-radius: 50%;
+  background: url(../img/css.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.javascript {
+  border-radius: 50%;
+  background: url(../img/javascript.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bootstrap {
+  border-radius: 50%;
+  background: url(../img/bootstrap.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.git {
+  border-radius: 50%;
+  background: url(../img/git.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jquery {
+  border-radius: 50%;
+  background: url(../img/jquery.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.terminal {
+  border-radius: 50%;
+  background: url(../img/terminal.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.photoshop {
+  border-radius: 50%;
+  background: url(../img/photoshop.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*----------portfolio----------*/
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-image-portfolio {
+  width: 300px;
+  height: 175px;
+}
+
+.portfolio-text {
+  line-height: 25px;
+}
+
+.makeup {
+  border-radius: 5px 5px 0 0;
+  background: url(../img/makeup.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.myweb {
+  border-radius: 5px 5px 0 0;
+  background: url(../img/myweb.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.weblab {
+  border-radius: 5px 5px 0 0;
+  background: url(../img/weblab.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

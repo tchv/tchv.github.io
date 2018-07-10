@@ -1,0 +1,12 @@
+/*----------colors----------*/
+
+:root {
+  --font: #262626; /*---font---*/
+  --link: #262626; /*---link, fontawesome---*/
+  --linkhover: #ffffff; /*---link hover: link, fontawesome---*/
+  --bg: #ffffff; /*---background---*/
+  --bghover: #262626; /*---background hover: link, fontawesom, button---*/
+  --bgcard: rgba(255, 255, 255, 0.8); /*---background: .card, .navbar and .footer-navbar---*/
+  --border: #262626; /*---border: link, button---*/
+  --bhover: #ffffff; /*---border hover: link, button---*/
+}
