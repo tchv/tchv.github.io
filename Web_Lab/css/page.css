@@ -1,0 +1,208 @@
+main {
+	float: left;
+	margin-top: 20px;
+}
+
+aside {
+	float: left;
+	margin-top: 20px;
+}
+
+.heading {
+	font-weight: lighter;
+	font-size: 1.4em;
+	font-family: 'Roboto';
+	border-bottom: 2px solid #4db406;
+	float: left;
+	color: #333333;
+	padding: 0px 5px;
+}
+
+article {
+	width: 40%;
+	float: left;
+	margin-right: 10%;
+	margin-bottom: 20px;
+	border: 1px solid #e3e3e3;
+	background-color: #fff;
+	box-sizing: border-box;
+	max-width: 350px;
+	border-radius: 5px;
+}
+
+article>img {
+	border-radius: 5px 5px 0 0;
+	width: 100%;
+}
+
+article>span {
+	font-family: 'Roboto';
+	font-size: 1em;
+	width: 80%;
+	margin: 7px 10%;
+	float: left;
+	text-align: center;
+	color: #333333;
+}
+
+article>a {
+	font-family: 'Roboto';
+	font-size: 1em;
+	width: 80%;
+	margin: 7px 10%;
+	float: left;
+	text-align: center;
+	color: #4db406;
+}
+
+#gallery {
+	float: left;
+}
+
+#news {
+	float: left;
+	width: 90%;
+}
+
+#nw {
+	width: 100%;
+	margin-bottom: 10px;
+	float: left;
+	font-family: 'Roboto';
+	font-size: 1em;
+	color: #333333;
+}
+
+#nw>img {
+	border: 1px solid #e3e3e3;
+	border-radius: 5px;
+	width: 35%;
+	float: left;
+	margin-right: 10px;
+}
+
+#nw>a {
+	float: right;
+	color: #4db406;
+}
+
+@media (min-width: 1051px) {
+	main {
+		width: 60%;
+		margin-left: 3%;
+	}
+
+	aside {
+		width: 30%;
+		margin-left: 2%;
+	}
+
+	#gallery {
+		margin-left: 10%;
+		width: 90%;
+	}
+}
+
+@media (max-width: 1050px) and (min-width: 911px) {
+	main {
+		width: 65%;
+		margin-left: 2%;
+	}
+
+	aside {
+		width: 32%;
+	}
+
+	#gallery {
+		margin-left: 4%;
+		width: 96%;
+	}
+}
+
+@media (max-width: 910px) and (min-width: 500px) {
+	main {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	aside {
+		width: 90%;
+		margin-left: 10%;
+	}
+
+	#gallery {
+		margin-left: 5%;
+		width: 95%;
+	}
+}
+
+@media (max-width: 499px) {
+	main {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	aside {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	#gallery {
+		margin-left: 5%;
+		width: 95%;
+	}
+}
+
+@media (min-width: 1220px) {
+	article {
+		width: 40%;
+		margin-right: 10%;
+	}
+}
+
+@media (max-width: 1219px) and (min-width: 650) {
+	article {
+		width: 45%;
+		margin-right: 5%;
+	}
+}
+
+@media (max-width: 649px) and (min-width: 500) {
+	article {
+		width: 70%;
+		margin-right: 15%;
+	}
+}
+
+@media (max-width: 499px) {
+	article {
+		width: 90%;
+		margin-right: 5%;
+	}
+}
+
+#subskribe {
+	float: left;
+	/*text-align: center;*/
+	margin-bottom: 20px;
+}
+
+@media (min-width: 911px) {
+	#subscribe {
+		width: 70%;
+	}
+}
+
+@media (max-width: 910px) {
+	#subscribe {
+		width: 100%;
+	}
+}
+
+#subscribe>span {
+	font-family: 'Roboto';
+	font-size: 2em;
+	color: #434343;
+	text-align: center;
+}
+
