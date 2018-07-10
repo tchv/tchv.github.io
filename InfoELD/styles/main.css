@@ -1,0 +1,183 @@
+/*===== Global Style =====*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+p {
+  font-size: 18px;
+}
+
+/*===== Header Style =====*/
+
+.header {
+  width: 100%;
+  background: #ffffff;
+  position: fixed;
+  z-index: 3;
+}
+
+.header-menu {
+  max-width: 1000px;
+  height: 70px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*===== Logo =====*/
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/logoELD.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: logo-icon 5s linear infinite;
+}
+
+@keyframes logo-icon {
+  from {}
+  to {transform: rotateZ(360deg);}
+}
+
+.logo-title {
+  color: #c0392b;
+}
+
+/*===== Number =====*/
+
+.num {
+  margin-right: 30px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.num-text {
+  color: #333333;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+}
+
+.num-text:hover {
+  color: #ffffff;
+  background: #c0392b;
+}
+
+@media (max-width: 812px) {
+
+  .num {
+    display: none;
+  }
+}
+
+/*===== Social Network =====*/
+
+.social {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-link {
+  width: 40px;
+  height: 40px;
+  background-color: #b6b6b6;
+  border-radius: 50%;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link:hover {
+  background-color: #615d5c;
+}
+
+.social-fa {
+  color: #ffffff;
+}
+
+/*===== Main Style =====*/
+
+.main {
+  width: 100%;
+  z-index: 2;
+}
+
+/*===== Steps =====*/
+
+.steps {
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.steps-box {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.steps-title {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.steps-text {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.steps img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/*===== Footer Style =====*/
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.footer-text {
+  color: #999999;
+}
