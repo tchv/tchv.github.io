@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="js/main.js"></script>
+  </head>
+  <body onload="displayFocus()">
+    <form class="calculator" name="calc">
+
+      <input id="focus" class="calculator__display" name="input" placeholder="0">
+
+      <div class="calculator__button" onclick="seven()">7</div>
+      <div class="calculator__button" onclick="eight()">8</div>
+      <div class="calculator__button" onclick="nine()">9</div>
+      <div class="calculator__button" onclick="divide()">/</div>
+
+      <div class="calculator__button" onclick="four()">4</div>
+      <div class="calculator__button" onclick="five()">5</div>
+      <div class="calculator__button" onclick="six()">6</div>
+      <div class="calculator__button" onclick="multiply()">*</div>
+
+      <div class="calculator__button" onclick="one()">1</div>
+      <div class="calculator__button" onclick="two()">2</div>
+      <div class="calculator__button" onclick="three()">3</div>
+      <div class="calculator__button" onclick="subtract()">-</div>
+
+      <div class="calculator__button" onclick="dot()">.</div>
+      <div class="calculator__button" onclick="zero()">0</div>
+      <div class="calculator__button" onclick="clean()">c</div>
+      <div class="calculator__button" onclick="add()">+</div>
+
+      <div class="calculator__button button__big" onclick="sum()">=</div>
+
+    </form>
+  </body>
+</html>
