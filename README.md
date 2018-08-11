@@ -32,7 +32,7 @@ This application is made using the Anguar CLI. Used to build lists of drivers in
 
 ## TRAININGS
 
-## EPAM Training - FRONT-END (JAVASCRIPT)
+### EPAM Training - FRONT-END (JAVASCRIPT)
 This training is dedicated to the approaches, technologies and instruments in development of visual elements that users see and interact with in a web application, or in other words, Front-end Development. It is designed for students who have programming skills and the basic understanding of web technologies.
 
 ###### You can see the result with the following URL:
