@@ -6,6 +6,7 @@ I am looking for a job in a company with a promising career opportunities. I wan
 My objective is to find a full-time job. I want to work in a team and in interesting projects, to get new knowledge, to learn new JS frameworks and to develop in Front-End.
 
     home / projecrs
+
 ## PROJECTS
 
 ### My Website
@@ -24,6 +25,7 @@ This application is made using the Anguar CLI. Used to build lists of drivers in
 > ###### ![code](https://tchv.github.io/fl9/fl9-src/code.png) [VIEW CODE](https://github.com/tchv/angular-project)
 
     home / trainings
+
 ## TRAININGS
 
 ## EPAM Training - FRONT-END (JAVASCRIPT)
