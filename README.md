@@ -22,7 +22,7 @@ This application is made using the Anguar CLI. Used to build lists of drivers in
 > ###### ![web](https://tchv.github.io/fl9/fl9-src/web.png) [VIEW WEBSITE](https://tchv.github.io/drivers_in_line/)
 > ###### ![code](https://tchv.github.io/fl9/fl9-src/code.png) [VIEW CODE](https://github.com/tchv/angular-project)
 ***
-My trainings:
+###### My trainings:
 ***
 ## EPAM Training - FRONT-END (JAVASCRIPT)
 This training is dedicated to the approaches, technologies and instruments in development of visual elements that users see and interact with in a web application, or in other words, Front-end Development. It is designed for students who have programming skills and the basic understanding of web technologies.
