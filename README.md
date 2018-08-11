@@ -4,7 +4,7 @@ I am Front-End Developer with over one year of experience in Web UI Development.
 I am looking for a job in a company with a promising career opportunities. I want to be helpful and work for the result.
 
 My objective is to find a full-time job. I want to work in a team and in interesting projects, to get new knowledge, to learn new JS frameworks and to develop in Front-End.
-***
+
 ###### My projects:
 ***
 ## My Website
@@ -14,14 +14,14 @@ My personal website
 > ###### ![web](https://tchv.github.io/fl9/fl9-src/web.png) [VIEW WEBSITE](https://tchv.github.io/Taras_Chornyi/)
 > ###### ![code](https://tchv.github.io/fl9/fl9-src/code.png) [VIEW HTML](https://github.com/tchv/my-website/blob/master/index.html)
 > ###### ![code](https://tchv.github.io/fl9/fl9-src/code.png) [VIEW CSS](https://github.com/tchv/my-website/blob/master/styles/main.css)
-***
+
 ## Drivers in line
 This application is made using the Anguar CLI. Used to build lists of drivers in a transport company.
 
 ###### You can see the result with the following URL:
 > ###### ![web](https://tchv.github.io/fl9/fl9-src/web.png) [VIEW WEBSITE](https://tchv.github.io/drivers_in_line/)
 > ###### ![code](https://tchv.github.io/fl9/fl9-src/code.png) [VIEW CODE](https://github.com/tchv/angular-project)
-***
+
 ###### My trainings:
 ***
 ## EPAM Training - FRONT-END (JAVASCRIPT)
@@ -29,4 +29,4 @@ This training is dedicated to the approaches, technologies and instruments in de
 
 ###### You can see the result with the following URL:
 > ###### ![web](https://github.com/tchv/tchv.github.io/blob/master/fl9/fl9-src/folder.png) [VIEW HOMEWORKS](https://github.com/tchv/fl-9)
-***
+
