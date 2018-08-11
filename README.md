@@ -8,6 +8,8 @@ My objective is to find a full-time job. I want to work in a team and in interes
 ***
 
     home / projecrs
+    
+***
 
 ## PROJECTS
 
@@ -29,6 +31,8 @@ This application is made using the Anguar CLI. Used to build lists of drivers in
 ***
 
     home / trainings
+    
+***
 
 ## TRAININGS
 
@@ -38,3 +42,8 @@ This training is dedicated to the approaches, technologies and instruments in de
 ###### You can see the result with the following URL:
 > ###### ![folder](https://tchv.github.io/fl9/fl9-src/folder.png) [VIEW HOMEWORKS](https://github.com/tchv/fl-9)
 
+***
+
+    Taras Chornyi © 2018
+
+***
