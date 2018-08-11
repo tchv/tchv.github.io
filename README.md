@@ -44,10 +44,10 @@ This training is dedicated to the approaches, technologies and instruments in de
 ###### You can see the result with the following URL:
 > ###### ![folder](https://tchv.github.io/fl9/fl9-src/folder.png) [VIEW HOMEWORKS](https://github.com/tchv/fl-9)
 
-[HOME](https://tchv.github.io) | [PROJECTS](https://tchv.github.io/#projects)  |  [TRAININGS](https://tchv.github.io/#trainings)
-
 ***
 
     Taras Chornyi © 2018
 
 ***
+
+[HOME](https://tchv.github.io) | [PROJECTS](https://tchv.github.io/#projects)  |  [TRAININGS](https://tchv.github.io/#trainings)
