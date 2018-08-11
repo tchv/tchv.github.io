@@ -9,12 +9,8 @@ My objective is to find a full-time job. I want to work in a team and in interes
 
 ## PROJECTS
 
-***
-
     home / projecrs
     
-***
-
 [HOME](https://tchv.github.io)
 
 ### My Website
@@ -34,12 +30,8 @@ This application is made using the Anguar CLI. Used to build lists of drivers in
 
 ## TRAININGS
 
-***
-
     home / trainings
     
-***
-
 [HOME](https://tchv.github.io)
 
 ### EPAM Training - FRONT-END (JAVASCRIPT)
