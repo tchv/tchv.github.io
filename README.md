@@ -1,4 +1,4 @@
-[PROJECTS](https://tchv.github.io/#projects)  |  [TRAININGS](https://tchv.github.io/#trainings)
+[PROJECTS](https://tchv.github.io/#projects)  |  [TRAININGS](https://tchv.github.io/#trainings)  |  [GITHUB](https://github.com/tchv)  |  [LINKEDIN](https://www.linkedin.com/in/taras-chornyi-10380761/)  |  [WEBSITE](https://tchv.github.io/Taras_Chornyi/)
 
 # Taras Chornyi | Front-End Developer
 I am Front-End Developer with over one year of experience in Web UI Development. At the moment I hold the post of Junior Front-End Developer. I speak English at an intermediate level, read technical documentation and can communicate on simple topics. My job is making valid, semantic and responsive HTML pages, using HTML5, CSS3, Bootstrap, JavaScript, jQuery. In the process of work I encountered various JS frameworks. I have experience working with Angular CLI, PHP, WordPress, MODX, Git. I always do my job qualitatively. I am sociable, responsible, punctual and open to learning new technologies and frameworks in Front-End Development.
@@ -12,6 +12,8 @@ My objective is to find a full-time job. I want to work in a team and in interes
     home / projecrs
     
 ***
+
+[HOME](https://tchv.github.io)
 
 ## PROJECTS
 
@@ -36,6 +38,8 @@ This application is made using the Anguar CLI. Used to build lists of drivers in
     
 ***
 
+[HOME](https://tchv.github.io)
+
 ## TRAININGS
 
 ### EPAM Training - FRONT-END (JAVASCRIPT)
@@ -49,5 +53,3 @@ This training is dedicated to the approaches, technologies and instruments in de
     Taras Chornyi © 2018
 
 ***
-
-[HOME](https://tchv.github.io)
