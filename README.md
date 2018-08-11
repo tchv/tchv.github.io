@@ -44,4 +44,4 @@ This training is dedicated to the approaches, technologies and instruments in de
 
 ***
 
-[HOME](https://tchv.github.io)  |  [LINKEDIN](https://www.linkedin.com/in/taras-chornyi-10380761/)  |  [WEBSITE](https://tchv.github.io/Taras_Chornyi/)
+[HOME](https://tchv.github.io/#)  |  [LINKEDIN](https://www.linkedin.com/in/taras-chornyi-10380761/)  |  [WEBSITE](https://tchv.github.io/Taras_Chornyi/)
