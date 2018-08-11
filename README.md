@@ -4,6 +4,7 @@ I am Front-End Developer with over one year of experience in Web UI Development.
 I am looking for a job in a company with a promising career opportunities. I want to be helpful and work for the result.
 
 My objective is to find a full-time job. I want to work in a team and in interesting projects, to get new knowledge, to learn new JS frameworks and to develop in Front-End.
+
 ***
 
     home / projecrs
@@ -24,6 +25,7 @@ This application is made using the Anguar CLI. Used to build lists of drivers in
 ###### You can see the result with the following URL:
 > ###### ![web](https://tchv.github.io/fl9/fl9-src/web.png) [VIEW WEBSITE](https://tchv.github.io/drivers_in_line/)
 > ###### ![code](https://tchv.github.io/fl9/fl9-src/code.png) [VIEW CODE](https://github.com/tchv/angular-project)
+
 ***
 
     home / trainings
