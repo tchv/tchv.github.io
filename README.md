@@ -1,6 +1,6 @@
-[HOME](https://tchv.github.io) | [PROJECTS](https://tchv.github.io/#projects)  |  [TRAININGS](https://tchv.github.io/#trainings)
-
 # Taras Chornyi | Front-End Developer
+[PROJECTS](https://tchv.github.io/#projects)  |  [TRAININGS](https://tchv.github.io/#trainings)
+
 I am Front-End Developer with over one year of experience in Web UI Development. At the moment I hold the post of Junior Front-End Developer. I speak English at an intermediate level, read technical documentation and can communicate on simple topics. My job is making valid, semantic and responsive HTML pages, using HTML5, CSS3, Bootstrap, JavaScript, jQuery. In the process of work I encountered various JS frameworks. I have experience working with Angular CLI, PHP, WordPress, MODX, Git. I always do my job qualitatively. I am sociable, responsible, punctual and open to learning new technologies and frameworks in Front-End Development.
 
 I am looking for a job in a company with a promising career opportunities. I want to be helpful and work for the result.
@@ -50,4 +50,4 @@ This training is dedicated to the approaches, technologies and instruments in de
 
 ***
 
-[HOME](https://tchv.github.io) | [PROJECTS](https://tchv.github.io/#projects)  |  [TRAININGS](https://tchv.github.io/#trainings)
+[HOME](https://tchv.github.io)
