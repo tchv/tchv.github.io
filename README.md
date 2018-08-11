@@ -28,8 +28,6 @@ This application is made using the Anguar CLI. Used to build lists of drivers in
 > ###### ![web](https://tchv.github.io/fl9/fl9-src/web.png) [VIEW WEBSITE](https://tchv.github.io/drivers_in_line/)
 > ###### ![code](https://tchv.github.io/fl9/fl9-src/code.png) [VIEW CODE](https://github.com/tchv/angular-project)
 
-[HOME](https://tchv.github.io)
-
 ## TRAININGS
 
     home / trainings
@@ -40,12 +38,10 @@ This training is dedicated to the approaches, technologies and instruments in de
 ###### You can see the result with the following URL:
 > ###### ![folder](https://tchv.github.io/fl9/fl9-src/folder.png) [VIEW HOMEWORKS](https://github.com/tchv/fl-9)
 
-[HOME](https://tchv.github.io)
-
 ***
 
     Taras Chornyi © 2018
 
 ***
 
-[LINKEDIN](https://www.linkedin.com/in/taras-chornyi-10380761/)  |  [WEBSITE](https://tchv.github.io/Taras_Chornyi/)
+[HOME](https://tchv.github.io)  |  [LINKEDIN](https://www.linkedin.com/in/taras-chornyi-10380761/)  |  [WEBSITE](https://tchv.github.io/Taras_Chornyi/)
