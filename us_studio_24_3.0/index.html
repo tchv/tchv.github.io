@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo-min.png">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <script src="js/main.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" onclick="homeTitle()" class="header_title">
+            <h2>US Studio 24</h2>
+        </a>
+        <img class="header_logo" src="images/logo.svg" alt="logo">
+        
+        <nav class="header_nav">
+            <a href="#schedule" onclick="scheduleTitle()">
+                <i class="fas fa-calendar-check"></i>Графік
+            </a>
+            <a href="#info" onclick="infoTitle()">
+                <i class="fas fa-info-circle"></i>Інформація
+            </a>
+            <a href="#rules" onclick="rulesTitle()">
+                <i class="fas fa-align-left"></i>Правила
+            </a>
+            <a href="#vocabulary" onclick="vocabularyTitle()">
+                <i class="fas fa-book"></i>Словник
+            </a>
+            <!-- <a href="#">
+                <i class="fas fa-globe"></i>Міста
+            </a> -->
+            <!-- <a href="#">
+                <i class="fas fa-user-alt"></i>Водії
+            </a> -->
+        </nav>
+        
+        <div class="header_footer">
+            <span>US Studio 24 &copy; 2018</span>, <a href="https://www.facebook.com/taras.chornyi.v">Taras Chornyi</a>
+        </div>
+    </header>
+    <main class="main">
+        <!-- __________Main Header (Start)__________ -->
+        <section class="main_header">
+            <h2 id="titleHome">Головна</h2>
+            <h2 id="titleSchedule">
+                <i class="fas fa-caret-left nav_arrow_1"></i>Робочий графік
+            </h2>
+
+            <h2 id="titleInfo">
+                <i class="fas fa-caret-left nav_arrow_2"></i>Інформація
+            </h2>
+
+            <h2 id="titleRules">
+                <i class="fas fa-caret-left nav_arrow_3"></i>Правила
+            </h2>
+
+            <h2 id="titleVocabulary">
+                <i class="fas fa-caret-left nav_arrow_4"></i>Словник
+            </h2>
+
+            <div class="clock">
+                <strong>Chicago, IL</strong>
+                <span class="time_us"></span>
+            </div>
+            <div class="clock">
+                <span class="time_ua"></span>
+                <strong>Новий Розділ</strong>
+            </div>
+            <div class="avatar">
+                <img src="images/logo_color.png" alt="avatar">
+            </div>
+        </section>
+        <!-- __________Main Header (End)__________ -->
+
+        <!-- __________Main Content (Start)__________ -->
+        <div class="main_content">
+            <!-- __________Main Content Home (Start)__________ -->
+            <div class="home" id="home">
+                <img src="images/logo_color.png" alt="logo">
+            </div>
+            <!-- __________Main Content Home (End)__________ -->
+            <div class="schedule" id="schedule">
+                <!-- <img src="images/schedule/1.jpg" alt="1"> -->
+                <!-- <img src="images/schedule/2.jpg" alt="2"> -->
+                <!-- <img src="images/schedule/3.jpg" alt="3"> -->
+                <!-- <img src="images/schedule/4.jpg" alt="4"> -->
+                <!-- <img src="images/schedule/5.jpg" alt="5"> -->
+                <!-- <img src="images/schedule/6.jpg" alt="6"> -->
+                <!-- <img src="images/schedule/7.jpg" alt="7"> -->
+                <img src="images/schedule/8.jpg" alt="8">
+                <img src="images/schedule/9.jpg" alt="9">
+                <img src="images/schedule/10.jpg" alt="10">
+                <img src="images/schedule/11.jpg" alt="11">
+                <img src="images/schedule/12.jpg" alt="12">
+                <img src="images/schedule/13.jpg" alt="13">
+                <img src="images/schedule/14.jpg" alt="14">
+                <img src="images/schedule/15.jpg" alt="15">
+                <img src="images/schedule/16.jpg" alt="16">
+                <img src="images/schedule/17.jpg" alt="17">
+                <img src="images/schedule/18.jpg" alt="18">
+                <img src="images/schedule/19.jpg" alt="19">
+                <img src="images/schedule/20.jpg" alt="20">
+                <img src="images/schedule/21.jpg" alt="21">
+                <img src="images/schedule/22.jpg" alt="22">
+                <img src="images/schedule/23.jpg" alt="23">
+            </div>
+            <div class="info" id="info">
+                <section class="container">
+                    <h3>Логін та пароль для оновлення MasterELD</h3>
+                    <i>Логін і пароль для Google акаунту на планшетах водіїв</i>
+                    <div>
+                        <strong>Logo:</strong>
+                        <mark>eld.midwestargroup@gmail.com</mark>
+                    </div>
+                    <div>
+                        <strong>Password:</strong>
+                        <mark>midwest123</mark>
+                    </div>
+                </section>
+
+                <section class="container">
+                    <h3>Пароль для планшетів водіїв</h3>
+                    <i>PIN код для встановлення програм і налаштування планшетів водіїв</i>
+                    <div>
+                        <strong>Password:</strong>
+                        <mark>3535</mark>
+                    </div>
+                </section>
+
+                <section class="container">
+                    <h3>Логбук</h3>
+                    <i>Зразок правильного заповнення Логбуку</i>
+                    <img src="images/log_example.jpg" alt="log example">
+                </section>
+
+                <section class="container">
+                    <h3>Адреси</h3>
+                    <i>Адреси головного офісу і паркінгу</i>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    Паркінг (Ярд)
+                                </th>
+                                <th>
+                                    Головний офіс
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Indian Head Park, IL - Yard
+                                </td>
+                                <td>
+                                    Bensenville, IL - Office
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    11316 70th Pl, Indian Head Park, IL 60525
+                                </td>
+                                <td>
+                                    828 Foster Ave, Bensenville, IL 60106
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <section class="container">
+                    <h3>Водії, що працюють в парі</h3>
+                    <i>Team drivers</i>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    Водій
+                                </th>
+                                <th>
+                                    Напарник
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Edmond Salihu
+                                </td>
+                                <td>
+                                    Male Veliu
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Shetim Berista
+                                </td>
+                                <td>
+                                    Ismet Gjikoli
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Dmytro Zastryzhenyi
+                                </td>
+                                <td>
+                                    Oleksandr Chervinskyi
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+            <div class="rules" id="rules">
+                <section class="container">
+                    <h3>Загальні правила</h3>
+                    <i>Правила поведінки з водіями та редагування логбуків</i>
+                    <ol class="list_title" type="1"><strong>Правила спілкування з водіями:</strong>
+                        <li>
+                            <p>Якщо у вас черга - ви не відповідаєте на дзвінок та повідомляєте водію в чаті наступне:</p>
+                            <p>Вибачте, я зараз не можу відповісти на Ваш дзвінок, оскільки маю інших водіїв. Якщо Ви хочете виправити помилки, то прошу вислати паперовий Логбук сюди в чат.</p>
+                        </li>
+                        <li>
+                            <p>Якщо у вас є час - ви приймаєте дзвінок і якщо водій чітко та зрозуміло формулює вам, що саме він хоче виправити, то ви сприяєте йому в цьому. Якщо ви не розумієте водія, то просите намалювати паперовий Логбук, а в чаті пишите наступне:</p>
+                            <p>Пане ______ під час нашої розмови по телефону я не зрозумів, що саме Ви хочете виправити. Надішліть паперовий Логбук зі змінами.</p>
+                        </li>
+                        <li>
+                            <p>Якщо водій телефонує до вас та починає розмову про ваше особисте життя, заробіток чи інші теми, що не стосуються роботи – просто завершіть розмову, а про інцидент повідомте безпосередньо свого менеджера. Не дозволяється з’ясування конфлікту в чаті. Це призводить лише до його загострення.</p>
+                        </li>
+                        <li>
+                            <p>З водіями спілкуйтеся ввічливо і по темі. Пам’ятайте - панібрацтво може призвести до непередбачуваних наслідків.</p>
+                        </li>
+                        <li>
+                            <p>Якщо виникає конфліктна ситуація, то не вступайте в діалог з водієм. Пишіть, що ви виконуєте вказівки менеджерів. Якщо водій незадоволений нашою роботою, то просіть його пояснити суть проблеми менеджерам (Славіку чи Тарасові).</p>
+                        </li>
+                    </ol>
+                    <ol class="list_title" type="I"><strong>Правила редагування Логбуків:</strong>
+                        <li>
+                            <p><b>General rules. </b>Загальні правила:</p>
+                            <ol type="1">
+                                <li>
+                                    <p><b>14 hr. </b>Загальний час роботи водія (D + ON) НЕ повинен перевищувати <b>14 </b>годин за зміну.</p>
+                                </li>
+                                <li>
+                                    <p><b>11 hr. </b>Загальний час водіння (D) НЕ повинен перевищувати <b>11 </b>годин за зміну.</p>
+                                </li>
+                                <li>
+                                    <p><b>8hr. </b>Безперервний час роботи водія (D + ON) НЕ повинен перевищувати <b>8 </b>годин підряд.</p>
+                                </li>
+                                <li>
+                                    <p><b>30 min. </b>Після кожних 8 годин безперервної роботи (D + ON) водій повинен робити перерву (Break) не менше <b>30 </b>години.</p>
+                                </li>
+                                <li>
+                                    <p><b>15 min. </b>Рекомендована тривалість PTI і Fuel 15 хв. Проте час On duty вказує водій.</p>
+                                </li>
+                                <li>
+                                    <p><b>Shift. </b>Робоча зміна.</p>
+                                    <ol type="a">
+                                        <li>
+                                            <p>Відлік 24 годинної (Добової) зміни починається після 10 годин безперервного сну, або з вихідного дня - Off duty. Як тільки водій змінив статус з Off duty чи Sleeping на On duty чи Driving, то з того моменту починається відлік 14 годин нової Добової зміни.</p>
+                                        </li>
+                                        <li>
+                                            <p>Відлік 70 годинної (Тижневої) зміни починається після 34 годин рестарту. Як тільки водій змінив статус з Off duty на On duty чи Driving, то з того моменту починається відлік 70 годин нової Добової зміни.</p>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <p><b>Log Events. </b>Журнал подій:</p>
+                            <ol type="1">
+                                <li>
+                                    <p><b>Status. </b>При кожному редагуванні Логбука обов’язково вказуйте статус:</p>
+                                    <p><b>OFF DUTY, SLEEPER, DRIVING, ON DUTY.</b></p>
+                                </li>
+                                <li>
+                                    <p><b>Time. </b>Час записуємо з урахуванням секунд: <b>10:33:45 АМ.</b></p>
+                                </li>
+                                <li>
+                                    <p><b>Location.</b></p>
+                                    <ol type="a">
+                                        <li>
+                                            <p>В усіх випадках окрім <b>Driving </b>вказуємо місцезнаходження.</p>
+                                        </li>
+                                        <li>
+                                            <p>Запис міста здійснюється в наступному форматі: <b>Chicago, IL. </b>Після назви міста, яке обов’язково починається з великої букви, ставиться кома, пробіл і вказується скорочену назву штата у вигляді двох великих літер.</p>
+                                        </li>
+                                        <li>
+                                            <p>Якщо весь день стоїть на Off duty, то залишаємо формат Location в стилі автозаповнення: <b>2.5 mi SSE of Newark, NJ.</b></p>
+                                        </li>
+                                        <li>
+                                            <p>Коли водій вичерпав 70 год ліміт праці, йому необхідно зробити як мінімум 34 год рестарт. Слідкуйте, щоб місце розташування водія в день коли він почав рестарт, співпадало з днем коли він повністю вихідний і днем коли він починає знову робочий тиждень.</p>
+                                        </li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    <p><b>Odometer, Engine Hours. </b>У пунктах Odometer i Engine Hours не вказуємо нічого, якщо там є записи прописані автоматично, то їх потрібно видалити.</p>
+                                </li>
+                                <li>
+                                    <p><b>Notes. </b>Нотатки записуємо наступним чином:</p>
+                                    <ol type="a">
+                                        <li>
+                                            <p><b>OFF DUTY. </b>Якщо Off Duty тривалістю до 1 години, то в нотатках можемо вказати що це: <b>Break, Rest (Resting) </b>чи <b>Food.</b></p>
+                                            <p>Якщо Off Duty тривалістю більше 1 години то в нотатках записуємо <b>Off duty.</b></p>
+                                            <p>Якщо Off Duty увесь день, то в нотатках не вказуємо нічого, а ставимо <b>пробіл.</b></p>
+                                        </li>
+                                        <li>
+                                            <p><b>SLEEPER. </b>У статусі Sleeper в нотатках записуємо слово <b>Sleep.</b></p>
+                                        </li>
+                                        <li>
+                                            <p><b>DRIVING. </b>У статусі Driving в нотатках не вказуємо нічого, а ставимо <b>пробіл.</b></p>
+                                        </li>
+                                        <li>
+                                            <p><b>ON DUTY. </b>У статусі On Duty в нотатках записуємо дії водія:</p>
+                                            <ul>
+                                                <li>
+                                                    <p><b>Delivery (D. L, DL)</b></p>
+                                                </li>
+                                                <li>
+                                                    <p><b>DOT Police inspection</b></p>
+                                                </li>
+                                                <li>
+                                                    <p><b>Drop</b></p>
+                                                </li>
+                                                <li>
+                                                    <p><b>Drop and hook</b></p>
+                                                </li>
+                                                <li>
+                                                    <p><b>Drop and pick up</b></p>
+                                                </li>
+                                                <li>
+                                                    <p><b>Hook (Hook up, Hook up trailer)</b></p>
+                                                </li>
+                                                <li>
+                                                    <p><b>Unhook</b></p>
+                                                </li>
+                                                <li>
+                                                    <p><b>Load (Loading)</b></p>
+                                                </li>
+                                                <li>
+                                                    <p><b>Unload (Unloading)</b></p>
+                                                </li>
+                                                <li>
+                                                    <p><b>Pick up (Pick, P. U, P/U)</b></p>
+                                                </li>
+                                                <li>
+                                                    <p><b>PTI - (Pre Trip Inspection)</b></p>
+                                                </li>
+                                                <li>
+                                                    <p><b>Repair</b></p>
+                                                </li>
+                                                <li>
+                                                    <p><b>Scale.</b></p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p>При записі в нотатках враховуйте великі і малі літери, коми і пробіли.</p>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ol>
+                            <li>
+                                <p><b>Profile Form. </b>Профіль.</p>
+                                <ol type="1">
+                                    <li>
+                                        <p><b>Distance. </b>Кожного разу, коли редагуємо логбук, видаляємо показники Одометра. Для цього виконайте наступні дії:</p>
+                                        <ol type="a">
+                                            <li>
+                                                <p>Зайдіть в <b>Profile Form;</b></p>
+                                            </li>
+                                            <li>
+                                                <p>В пункті <b>Distance </b>натисніть на кнопку <b>ODOMETERS;</b></p>
+                                            </li>
+                                            <li>
+                                                <p>У вікні, що з’явиться видаліть показники Одометра натиснувши на червоні хрестики і збережіть зміни натиснувши кнопку <b>SAVE.</b></p>
+                                            </li>
+                                            <li>
+                                                <p>Завжди перевіряйте чи в попередньому дні є милі. Якщо так, то їх потрібно видалити.</p>
+                                            </li>
+                                        </ol>
+                                    </li>
+                                    <li>
+                                        <p><b>Address. </b>Якщо увесь день стоїть на Off Duty, то записів у пунктах <b>From Address </b>та <b>To Address </b>не повинно бути.</p>
+                                    </li>
+                                </ol>
+                            </li>
+                        </li>
+                        <li>
+                            <p><b>Recommendations. </b>Нагадувати водіям перевіряти свої Логбуки за 7 днів роботи на предмет порушень годин праці і коректного місцезнаходження - так звані ТЕЛЕПОРТАЦІЇ не допускаються.</p>
+                        </li>
+                    </ol>
+                </section>
+            </div>
+            <div class="vocabulary" id="vocabulary">
+                <section class="container">
+                    <h3>Словник термінів</h3>
+                    <i>Терміни для запису в нотатки</i>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    US English
+                                </th>
+                                <th>
+                                    Солов'їна українська
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Break
+                                </td>
+                                <td>
+                                    Перерва
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Bobtail
+                                </td>
+                                <td>
+                                    Трак без причепа (трейлера) - сам тягач
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Rest
+                                </td>
+                                <td>
+                                    Відпочинок
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    D or Driving
+                                </td>
+                                <td>
+                                    Рух
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Delivery
+                                </td>
+                                <td>
+                                    Доставка
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    DOT Police Inspection
+                                </td>
+                                <td>
+                                    Поліцейська інспекція
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    DOT permit
+                                </td>
+                                <td>
+                                    Дозвіл на проїзд штатом
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Drop and hook
+                                </td>
+                                <td>
+                                    Зміна причепу
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Food / Dinner
+                                </td>
+                                <td>
+                                    Їжа / Вечеря
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Fuel
+                                </td>
+                                <td>
+                                    Заправка 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Hook up, Hook, Hook up trailer
+                                </td>
+                                <td>
+                                    Зчеплення
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Load, Pick up, Pick, PU, p/u
+                                </td>
+                                <td>
+                                    Завантаження вантажу
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Off or Off Duty
+                                </td>
+                                <td>
+                                    Не працює
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    On or On Duty
+                                </td>
+                                <td>
+                                    На роботі
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    PTI 
+                                </td>
+                                <td>
+                                    Огляд транспортного засобу
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Repair / broke down
+                                </td>
+                                <td>
+                                    Ремонт / зламався
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    SB / Sleep / Sleeping / Sleeper Berth 
+                                </td>
+                                <td>
+                                    Сон
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Scale
+                                </td>
+                                <td>
+                                    Зважування
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Unhook
+                                </td>
+                                <td>
+                                    Відчепив трейлер
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Unload
+                                </td>
+                                <td>
+                                    Вивантаження
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Drop off 
+                                </td>
+                                <td>
+                                    Скинув трейлер
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    DOT permit 
+                                </td>
+                                <td>
+                                    Дозвіл на проїзд по штаті
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section class="container">
+                    <h3>Словник виразів</h3>
+                    <i>Фрази для спілкування з водіями</i>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    US English
+                                </th>
+                                <th>
+                                    Солов'їна українська
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Please accept and check
+                                </td>
+                                <td>
+                                    Будь ласка, прийміть і перевірте
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    What’s your truck  / trailer number?
+                                </td>
+                                <td>
+                                    Який номер вашого траку / трейлера?
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Have a good day
+                                </td>
+                                <td>
+                                    Гарного дня! 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Have a safe trip
+                                </td>
+                                <td>
+                                    Щасливої дороги
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    20 - 30 mins. A lot of drivers waiting
+                                </td>
+                                <td>
+                                    20 - 30 хв. Багато водіїв чекає
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Iam sorry, please accept again 
+                                </td>
+                                <td>
+                                    Вибачте, прийміть ще раз
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Please accept
+                                </td>
+                                <td>
+                                    Прийміть, будь ласка
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    I’am doing now your logbook
+                                </td>
+                                <td>
+                                    Роблю зараз Ваш логбук
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    You have HOS violation!!! You have to stop immediately and send to us corrected paper logbook to fix this issue
+                                </td>
+                                <td>
+                                    У Вас порушення годин праці, зупиніться негайно і відправте нам виправлені паперові лог буки
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Сan you please go to Off duty(sleep,on duty) now
+                                </td>
+                                <td>
+                                    Станьте будь-ласка на Off duty
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Looks like you don’t have good internet connection on your tablet
+                                </td>
+                                <td>
+                                    Схоже, що у вас відсутній/поганий інтернет на планшеті
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Please update(reinstall) your MasterELD app
+                                </td>
+                                <td>
+                                    Оновіть(перевстановіть) ваш додоток MasterELD
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    *Імя драйвера* , you have to pull over somewhere ASAP and accept changes. You CAN’T drive with pending requests!!!
+                                </td>
+                                <td>
+                                    Ти мусиш зупинитися якнайшвидше і прийняти зміни. Ти можеш їздити зі змінами, які очікують прийняття!
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    HOS (Hours of service)
+                                </td>
+                                <td>
+                                    Години праці
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    You must follow with company rules!
+                                </td>
+                                <td>
+                                    Ви мусите дотримуватися правил компані!
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    It’s your responsibility to keep your logs current and legal
+                                </td>
+                                <td>
+                                    Це ваш обов’язок тримати лог бук чинним
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    We CAN’T do any changes in your log, while you driving
+                                </td>
+                                <td>
+                                    Ми не можемо робити зміни у логбуці поки ви їдете
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Please fill out all statuses correctly in your paper log (PTI, break, delivery etc)! 
+                                </td>
+                                <td>
+                                    Будь - ласка заповнюйте всі ваші статуси в паперовому лог буці (PTI, перерва, доставка і тд)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    example
+                                </td>
+                                <td>
+                                    приклад
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Sorry, I have to cancel new changes in your log book !
+                                </td>
+                                <td>
+                                    Вибачте, але я мушу відмінити оновлення
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    DOT permit
+                                </td>
+                                <td>
+                                    Дозвіл на проїзд по штаті
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </div>
+        <!-- __________Main Content (End)__________ -->
+    </main>
+</body>
+</html>
