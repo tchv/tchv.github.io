@@ -12,6 +12,30 @@
     <script src="js/main.min.js"></script>
 </head>
 <body>
+    <div class="mobil">
+        <div class="mobil_header">
+            <div>
+                <span class="mobil_time_us"></span>
+            </div>
+            <img class="mobil_header_logo" src="images/logo.svg" alt="logo">
+            <div>
+                <span class="mobil_time_ua"></span>
+            </div>
+        </div>
+        <div class="mobil_content">
+            <div class="mobil_schedule">
+                <img src="images/1.jpg" alt="1">
+                <img src="images/2.jpg" alt="2">
+                <img src="images/3.jpg" alt="3">
+                <img src="images/4.jpg" alt="4">
+                <img src="images/5.jpg" alt="5">
+            </div>
+        </div>
+        <footer>
+            <span>US Studio 24 &copy; 2018</span>, <a href="https://www.facebook.com/taras.chornyi.v">Taras Chornyi</a>
+        </footer>
+    </div>
+
     <header class="header">
         <a href="#home" onclick="homeTitle()" class="header_title">
             <h2>US Studio 24</h2>
@@ -31,12 +55,6 @@
             <a href="#vocabulary" onclick="vocabularyTitle()">
                 <i class="fas fa-book"></i>Словник
             </a>
-            <!-- <a href="#">
-                <i class="fas fa-globe"></i>Міста
-            </a> -->
-            <!-- <a href="#">
-                <i class="fas fa-user-alt"></i>Водії
-            </a> -->
         </nav>
         
         <div class="header_footer">
@@ -66,11 +84,11 @@
             <div class="clock">
                 <strong>Chicago, IL</strong>
                 <span class="time_us"></span>
-            </div>
-            <div class="clock">
+            
                 <span class="time_ua"></span>
                 <strong>Новий Розділ</strong>
             </div>
+
             <div class="avatar">
                 <img src="images/logo_color.png" alt="avatar">
             </div>
@@ -97,11 +115,14 @@
                     <i>Логін і пароль для Google акаунту на планшетах водіїв</i>
                     <div>
                         <strong>Logo:</strong>
-                        <mark>eld.midwestargroup@gmail.com</mark>
+                        <mark>**********</mark>
                     </div>
                     <div>
                         <strong>Password:</strong>
-                        <mark>midwest123</mark>
+                        <mark>*****</mark>
+                    </div>
+                    <div class="btn_box">
+                        <a class="btn_link" href="https://drive.google.com/file/d/1lkzXVBy2yRFk4BgvTQ4k0htRqYFZdglZ/view?usp=sharing">Показати логін і пароль</a>
                     </div>
                 </section>
 
@@ -110,7 +131,10 @@
                     <i>PIN код для встановлення програм і налаштування планшетів водіїв</i>
                     <div>
                         <strong>Password:</strong>
-                        <mark>3535</mark>
+                        <mark>****</mark>
+                    </div>
+                    <div class="btn_box">
+                        <a class="btn_link" href="https://drive.google.com/file/d/1i9ySY0xJ7eTAAxeqcb5IBuJ-UBVU2VSc/view?usp=sharing">Показати пароль</a>
                     </div>
                 </section>
 
@@ -144,15 +168,18 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>
-                                    11316 70th Pl, Indian Head Park, IL 60525
+                                <td class="hidden_text">
+                                    Прихований текст
                                 </td>
-                                <td>
-                                    828 Foster Ave, Bensenville, IL 60106
+                                <td class="hidden_text">
+                                    Прихований текст
                                 </td>
                             </tr>
                         </tbody>
                     </table>
+                    <div class="btn_box">
+                        <a class="btn_link" href="https://drive.google.com/file/d/1mMGA4kNbQC21uaJ5mYiP5_tj1-e4LyAe/view?usp=sharing">Показати адресу</a>
+                    </div>
                 </section>
 
                 <section class="container">
@@ -184,14 +211,6 @@
                                 </td>
                                 <td>
                                     Ismet Gjikoli
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Dmytro Zastryzhenyi
-                                </td>
-                                <td>
-                                    Oleksandr Chervinskyi
                                 </td>
                             </tr>
                         </tbody>
@@ -255,128 +274,12 @@
                         </li>
                         <li>
                             <p><b>Log Events. </b>Журнал подій:</p>
-                            <ol type="1">
-                                <li>
-                                    <p><b>Status. </b>При кожному редагуванні Логбука обов’язково вказуйте статус:</p>
-                                    <p><b>OFF DUTY, SLEEPER, DRIVING, ON DUTY.</b></p>
-                                </li>
-                                <li>
-                                    <p><b>Time. </b>Час записуємо з урахуванням секунд: <b>10:33:45 АМ.</b></p>
-                                </li>
-                                <li>
-                                    <p><b>Location.</b></p>
-                                    <ol type="a">
-                                        <li>
-                                            <p>В усіх випадках окрім <b>Driving </b>вказуємо місцезнаходження.</p>
-                                        </li>
-                                        <li>
-                                            <p>Запис міста здійснюється в наступному форматі: <b>Chicago, IL. </b>Після назви міста, яке обов’язково починається з великої букви, ставиться кома, пробіл і вказується скорочену назву штата у вигляді двох великих літер.</p>
-                                        </li>
-                                        <li>
-                                            <p>Якщо весь день стоїть на Off duty, то залишаємо формат Location в стилі автозаповнення: <b>2.5 mi SSE of Newark, NJ.</b></p>
-                                        </li>
-                                        <li>
-                                            <p>Коли водій вичерпав 70 год ліміт праці, йому необхідно зробити як мінімум 34 год рестарт. Слідкуйте, щоб місце розташування водія в день коли він почав рестарт, співпадало з днем коли він повністю вихідний і днем коли він починає знову робочий тиждень.</p>
-                                        </li>
-                                    </ol>
-                                </li>
-                                <li>
-                                    <p><b>Odometer, Engine Hours. </b>У пунктах Odometer i Engine Hours не вказуємо нічого, якщо там є записи прописані автоматично, то їх потрібно видалити.</p>
-                                </li>
-                                <li>
-                                    <p><b>Notes. </b>Нотатки записуємо наступним чином:</p>
-                                    <ol type="a">
-                                        <li>
-                                            <p><b>OFF DUTY. </b>Якщо Off Duty тривалістю до 1 години, то в нотатках можемо вказати що це: <b>Break, Rest (Resting) </b>чи <b>Food.</b></p>
-                                            <p>Якщо Off Duty тривалістю більше 1 години то в нотатках записуємо <b>Off duty.</b></p>
-                                            <p>Якщо Off Duty увесь день, то в нотатках не вказуємо нічого, а ставимо <b>пробіл.</b></p>
-                                        </li>
-                                        <li>
-                                            <p><b>SLEEPER. </b>У статусі Sleeper в нотатках записуємо слово <b>Sleep.</b></p>
-                                        </li>
-                                        <li>
-                                            <p><b>DRIVING. </b>У статусі Driving в нотатках не вказуємо нічого, а ставимо <b>пробіл.</b></p>
-                                        </li>
-                                        <li>
-                                            <p><b>ON DUTY. </b>У статусі On Duty в нотатках записуємо дії водія:</p>
-                                            <ul>
-                                                <li>
-                                                    <p><b>Delivery (D. L, DL)</b></p>
-                                                </li>
-                                                <li>
-                                                    <p><b>DOT Police inspection</b></p>
-                                                </li>
-                                                <li>
-                                                    <p><b>Drop</b></p>
-                                                </li>
-                                                <li>
-                                                    <p><b>Drop and hook</b></p>
-                                                </li>
-                                                <li>
-                                                    <p><b>Drop and pick up</b></p>
-                                                </li>
-                                                <li>
-                                                    <p><b>Hook (Hook up, Hook up trailer)</b></p>
-                                                </li>
-                                                <li>
-                                                    <p><b>Unhook</b></p>
-                                                </li>
-                                                <li>
-                                                    <p><b>Load (Loading)</b></p>
-                                                </li>
-                                                <li>
-                                                    <p><b>Unload (Unloading)</b></p>
-                                                </li>
-                                                <li>
-                                                    <p><b>Pick up (Pick, P. U, P/U)</b></p>
-                                                </li>
-                                                <li>
-                                                    <p><b>PTI - (Pre Trip Inspection)</b></p>
-                                                </li>
-                                                <li>
-                                                    <p><b>Repair</b></p>
-                                                </li>
-                                                <li>
-                                                    <p><b>Scale.</b></p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <p>При записі в нотатках враховуйте великі і малі літери, коми і пробіли.</p>
-                                        </li>
-                                    </ol>
-                                </li>
-                            </ol>
-                            <li>
-                                <p><b>Profile Form. </b>Профіль.</p>
-                                <ol type="1">
-                                    <li>
-                                        <p><b>Distance. </b>Кожного разу, коли редагуємо логбук, видаляємо показники Одометра. Для цього виконайте наступні дії:</p>
-                                        <ol type="a">
-                                            <li>
-                                                <p>Зайдіть в <b>Profile Form;</b></p>
-                                            </li>
-                                            <li>
-                                                <p>В пункті <b>Distance </b>натисніть на кнопку <b>ODOMETERS;</b></p>
-                                            </li>
-                                            <li>
-                                                <p>У вікні, що з’явиться видаліть показники Одометра натиснувши на червоні хрестики і збережіть зміни натиснувши кнопку <b>SAVE.</b></p>
-                                            </li>
-                                            <li>
-                                                <p>Завжди перевіряйте чи в попередньому дні є милі. Якщо так, то їх потрібно видалити.</p>
-                                            </li>
-                                        </ol>
-                                    </li>
-                                    <li>
-                                        <p><b>Address. </b>Якщо увесь день стоїть на Off Duty, то записів у пунктах <b>From Address </b>та <b>To Address </b>не повинно бути.</p>
-                                    </li>
-                                </ol>
-                            </li>
-                        </li>
-                        <li>
-                            <p><b>Recommendations. </b>Нагадувати водіям перевіряти свої Логбуки за 7 днів роботи на предмет порушень годин праці і коректного місцезнаходження - так звані ТЕЛЕПОРТАЦІЇ не допускаються.</p>
+                            <p class="hidden_text">Текст приховано, щоб прочитати його натисніть кнопку!</p>
                         </li>
                     </ol>
+                    <div class="btn_box">
+                        <a class="btn_link" href="https://drive.google.com/file/d/1HEiMnJo0vN1bKFk-zukLvd9eE7eCS7oL/view?usp=sharing">Переглянути увесь текст</a>
+                    </div>
                 </section>
             </div>
             <div class="vocabulary" id="vocabulary">
