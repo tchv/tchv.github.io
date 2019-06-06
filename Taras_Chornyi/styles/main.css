@@ -501,7 +501,7 @@ a {
 }
 
 .margin-left {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .about-link:hover {
@@ -647,8 +647,8 @@ a {
 
 .chart img {
   position: absolute;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 150px;
+  max-height: 150px;
   background: white;
 }
 
@@ -656,33 +656,23 @@ a {
   text-align: center;
 }
 
-.html {
-  top: 50px;
-  left: 45px;
+.desktop,
+.web,
+.mobile {
+  top: 20px;
+  left: 20px;
 }
 
-.html + svg .outer {
-  stroke: #e34f26;
+.desktop + svg .outer {
+  stroke: #ea4335;
 }
 
-.css {
-  top: 55px;
-  left: 48px;
+.web + svg .outer {
+  stroke: #4285f4;
 }
 
-.css + svg .outer {
-  stroke: #0d84ce;
-}
-
-.javascript {
-  max-width: 90px;
-  max-height: 90px;
-  top: 45px;
-  left: 45px;
-}
-
-.javascript + svg .outer {
-  stroke: #f0e040;
+.mobile + svg .outer {
+  stroke: #34a853;
 }
 
 .chart svg {
