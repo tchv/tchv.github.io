@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>US Studio 24 | Your best support 24/7</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/logo_color.png">
+  <link rel="stylesheet" href="style/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <a class="nav-link text-center header-link" href="index.html">
+            <h1 class="header-title">US Studio 24</h1>
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <div class="text-center header-logo">
+            <img src="images/logo_black.png" class="rounded" width="85px" height="85px" alt="logo">
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <h1 class="header-content text-center">Support 24/7</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="images/us.png" class="rounded mx-auto d-block main-flags" width="140" height="140" alt="us flag">
+          <h2 class="text-center">Hello</h2>
+          <p>Welcome to the virtual assistant. He will answer the following questions:</p>
+          <ul class="main-list">
+            <li>How to update MasterELD?</li>
+            <li>How to reinstall MasterELD?</li>
+            <li>What to do if you have bad internet connection in your tablet?</li>
+            <li>How do I use HOTSPOT to connect WiFi from my phone?</li>
+          </ul>
+          <p class="text-center"><a class="btn btn-secondary btn-lg btn-block" href="../chat/bot-us.html" role="button">Ask in English</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img src="images/ua.png" class="rounded mx-auto d-block main-flags" width="140" height="140" alt="ua flag">
+          <h2 class="text-center">Привіт</h2>
+          <p>Ласкаво просимо до віртуального помічника. Він відповість на наступні питання:</p>
+          <ul class="main-list">
+            <li>Як оновити MasterELD?</li>
+            <li>Як перевстановити MasterELD?</li>
+            <li>Що робити, якщо у вас поганий інтернет у вашому планшеті?</li>
+            <li>Як використовувати HOTSPOT для підключення Wi-Fi з телефону?</li>
+          </ul>
+          <p class="text-center"><a class="btn btn-secondary btn-lg btn-block" href="../chat/bot-ua.html" role="button">Запитати українською</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img src="images/ru.png" class="rounded mx-auto d-block main-flags" width="140" height="140" alt="ru flag">
+          <h2 class="text-center">Привет</h2>
+          <p>Добро пожаловать в виртуальный помощник. Он ответит на следующие вопросы:</p>
+          <ul class="main-list">
+            <li>Как обновить MasterELD?</li>
+            <li>Как переустановить MasterELD?</li>
+            <li>Что делать, если у вас плохое интернет соединение на планшете?</li>
+            <li>Как я могу использовать HOTSPOT для подключения WiFi с моего телефона?</li>
+          </ul>
+          <p class="text-center"><a class="btn btn-secondary btn-lg btn-block" href="../chat/bot-ru.html" role="button">Спросить на русском</a></p>
+        </div>
+      </div>
+    </div>
+    <df-messenger
+      chat-icon="https://tchv.github.io/logo_color.png"
+      intent="GOOGLE_ASSISTANT_WELCOME"
+      chat-title="US Studio 24 | Chat Bot"
+      agent-id="fe05b2d6-fdb0-4ba8-9ebf-c308b5d4e334"
+      language-code="en">
+    </df-messenger>
+  </main>
+  <footer class="footer">
+    <p class="text-center footer-copyright">2020 © US Studio 24 | <a href="https://www.linkedin.com/in/taraschornyi/">Taras Chornyi</a></p>
+  </footer>
+</body>
+</html>
